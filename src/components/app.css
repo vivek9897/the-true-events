@@ -1,0 +1,332 @@
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap');
+body{
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans",sans-serif;
+}
+
+.nav-wrapper{
+    justify-content: space-evenly;
+    display: flex;
+    width: 100%;
+}
+.logo{
+    width: 20%;
+    justify-content: center;
+    
+    
+
+}
+.logo img{
+    width: 25%;
+    border: 1px white;
+    border-radius: 100%;
+
+}
+
+.brand-logo,h2{
+    font-family: 'Grand Hotel', cursive;
+
+}
+
+
+.item{
+    width: 25%;
+}
+
+.auth-card{
+    padding: 20px;
+    text-align: center;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: 20px;
+}
+.auth2-card{
+    padding: 20px;
+    text-align: center;
+    max-width: 400px;
+    margin: 10px auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+}
+.input-field input[type=text]:focus {
+    border-bottom: 1px solid rgb(238, 95, 150) !important;
+    box-shadow: 0 1px 0 0 rgb(240, 59, 158) !important;
+  }
+
+
+
+
+
+.myimg{
+    background-image:url(https://image.wedmegood.com/resized/1900X/uploads/city_bg_image/1/delhi_bg.jpeg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 0px;
+}
+.myimg h4{
+  color:whitesmoke;
+  text-align: right;
+  padding: 50px 40px 20px 400px;
+  justify-content: center;
+  font-family:'Grand Hotel', cursive ;
+  font-size: 30px;
+  
+}
+.bt-bt{
+  background: transparent;
+  
+}
+
+
+#li1 ,#li2 ,#li3{
+    position: relative;
+   padding: 0px 20px;
+   font-family: "montserrat";
+   cursor: pointer;
+   text-align: left;
+
+}
+
+#li1:hover,#li2:hover ,#li3:hover{
+    background:rgb(10, 167, 159);
+}
+
+.text1{
+    padding: 0px;
+    font-family: 'Grand Hotel', cursive;
+    color: rgb(5, 15, 5);
+    font-size: 30px;
+    padding-bottom: 30px;
+    margin:10px 20px ;
+}
+
+
+
+
+
+
+  /* pricing list */
+ .body2{
+    min-height: 100vh;
+    background-image: linear-gradient(125deg,#34495e,#2ecc71);
+  }
+  
+  .container{
+    max-width: 1000px;
+    margin: auto;
+    padding: 40px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .pricing-table{
+    background: linear-gradient(45deg, black, transparent);
+    flex: 1;
+    margin: 10px;
+    text-transform: uppercase;
+  }
+  
+  .pricing-header{
+    color: rgb(19, 4, 4);
+    position: relative;
+    margin-bottom: 20px;
+  }
+  
+  .price{
+    font-size: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 0;
+  }
+  
+  .price span{
+    font-size: 30px;
+  }
+  
+  .title{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%,50%);
+    width: 80%;
+    max-width: 360px;
+    text-align: center;
+    padding: 8px 0;
+    font-size: 14px;
+  }
+  
+  .pricing-list{
+    padding: 10px 20px;
+  }
+  
+  .pricing-list li{
+    margin: 8px 0;
+    font-size: 14px;
+    color: rgb(12, 20, 20);
+    text-align: center;
+  }
+  
+  .border{
+    width: 80px;
+    height: 1px;
+    background: rgb(12, 48, 209);
+    margin: auto;
+  }
+  
+  .pricing-table a{
+    display: block;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 8px 0;
+    font-size: 14px;
+    border: 1px solid;
+    max-width: 360px;
+    transition: .2s linear;
+  }
+  .pricing-table a:hover{
+    border-radius: 30px;
+  }
+  .table1 .pricing-header{
+    background:RGB(0, 128, 128);
+  }
+  .table2 .pricing-header{
+    background:RGB(128, 128, 0);
+  }
+  .table3 .pricing-header{
+    background: 	RGB(192, 192, 192);
+  }
+  
+  .table1 .title{
+    background-image: linear-gradient(125deg,#3498db,#9b59b6);
+  }
+  .table2 .title{
+    background-image: linear-gradient(125deg,#34495e,#95a5a6);
+  }
+  .table3 .title{
+    background-image: linear-gradient(125deg,#e74c3c,#f39c12);
+  }
+  
+  .table1 a{
+    color: #2980b9;
+  }
+  .table2 a{
+    color: #2c3e50;
+  }
+  .table3 a{
+    color: #c0392b;
+  }
+  
+  .table1 a:hover{
+    background: #2980b9;
+    color: #fff;
+  }
+  .table2 a:hover{
+    background: #2c3e50;
+    color: #fff;
+  }
+  .table3 a:hover{
+    background: #c0392b;
+    color: #fff;
+  }
+  
+  @media screen and (max-width:780px) {
+    .pricing-table{
+      flex: 100%;
+    }
+  }
+  /* our services */
+  .services-section{
+    background: url(https://images.unsplash.com/photo-1508873699372-7aeab60b44ab?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60);
+    background-size: cover;
+    padding: 60px 0;
+  }
+  .inner-width2{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+    overflow: hidden;
+  }
+  .section-title{
+    text-align: center;
+    color:black;
+    text-transform: uppercase;
+    font-size: 30px;
+  }
+  .border3{
+    width: 160px;
+    height: 2px;
+    background: #82ccdd;
+    margin: 40px auto;
+  }
+  .services-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .service-box{
+    max-width: 33.33%;
+    padding: 10px;
+    text-align: center;
+    color: black;
+    cursor: pointer;
+  }
+  
+  .service-icon{
+    display: inline-block;
+    width: 100px;
+    background-size: cover;
+    height: 100px;
+    border: 3px solid whitesmoke;
+    color: #d81c03;
+    background-image: url(data:image/png;base64,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);
+    transform: rotate(30deg);
+    margin-bottom: 30px;
+    margin-top: 16px;
+    transition: 0.3s linear;
+  }
+  .service-icon i{
+    line-height: 70px;
+    transform: rotate(-45deg);
+    font-size: 26px;
+  }
+  .service-box:hover .service-icon{
+    background-image: url(https://images.unsplash.com/photo-1529634597503-139d3726fed5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+    color: #ddd;
+    background-size: cover;
+    
+  }
+  .service-title{
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+  .service-desc{
+    font-size: 14px;
+  }
+  
+  @media screen and (max-width:960px) {
+    .service-box{
+      max-width: 45%;
+    }
+  }
+  
+  @media screen and (max-width:768px) {
+    .service-box{
+      max-width: 50%;
+    }
+  }
+  
+  @media screen and (max-width:480px) {
+    .service-box{
+      max-width: 100%;
+    }
+  }
+  

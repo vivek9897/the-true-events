@@ -1,0 +1,85 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Grand Hotel', cursive;
+}
+#slider {
+  width: 80%;
+  margin: 60px;
+  height: 80vh;
+  background-size: cover;
+	overflow: hidden;
+}
+#slider figure {
+	position: relative;
+	width: 500%;
+	margin: 0;
+	left: 0;
+	animation: 20s slider infinite;
+}
+#slider figure img {
+	width: 20%;
+	float: left;
+}
+
+@keyframes slider {
+	0% {
+		left: 0;
+	}
+	20% {
+		left: 0;
+	}
+	25% {
+		left: -100%;
+	}
+	45% {
+		left: -100%;
+	}
+	50% {
+		left: -200%;
+	}
+	70% {
+		left: -200%;
+	}
+	75% {
+		left: -300%;
+	}
+	95% {
+		left: -300%;
+	}
+	100% {
+		left: -400%;
+	}
+}
+.gallery h1{
+  text-align: center;
+  font-size: 40px;
+  font-family: 'Grand Hotel', cursive;
+  justify-content: center;
+}
+.imagegallery{ 
+  display: flex;
+  width: 80%;
+  flex-wrap: wrap;
+  flex-direction:row ;
+  padding-left: 20px;
+  justify-content: space-around;
+  align-items: center; 
+} 
+.gallery2{
+  padding: 0px 10px 10px;
+  border: 3px black;
+  cursor: pointer;
+
+}
+.gallery2 img{
+  width: 300px;
+  border-radius: 15%;
+  height: auto;
+}
+.gallery2 img:hover{
+  transition: 1s;
+  width: 400px;
+  height: auto;
+  transition-delay: 0s;
+}
